@@ -52,7 +52,7 @@ class OrderController extends Controller
         $order = new Order([
             'user_id' => auth()->user()->id,
             'address' => $request->address,
-            'status' => 'pending',
+            'status' => 'Pending',
             'shipping' => $shipping,
             'total' => $total
         ]);

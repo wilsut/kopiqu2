@@ -24,7 +24,7 @@ class RolesSeeder extends Seeder
                 'updated_at' => null,
             ],
             [
-                'name' => 'Customer',
+                'name' => 'User',
                 'created_at' => new DateTime,
                 'updated_at' => null,
             ]
